@@ -286,7 +286,6 @@
 @media only screen and (min-width: 0rem) {
   #services-2198 {
     padding: var(--sectionPadding);
-    background-color: #FDFAF8;
     position: relative;
   }
   #services-2198 .cs-container {
@@ -380,18 +379,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-  }
-  #services-2198 .cs-number {
-    /* 49px - 72px */
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.2em;
-    text-align: inherit;
-    margin: 0;
-    color: var(--primary);
-    opacity: 0.2;
-    position: absolute;
-    z-index: 0;
   }
   #services-2198 .cs-h3 {
     font-size: 1.25rem;
@@ -578,19 +565,6 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-  }
-  #gallery-2281:before {
-    content: '';
-    width: 100%;
-    height: 22.5rem;
-    margin-right: 3.4375rem;
-    background: var(--primary);
-    opacity: 0.05;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
   }
   #gallery-2281 .cs-container {
     width: 100%;
@@ -798,13 +772,6 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #gallery-2281:before {
-    width: 100vw;
-    /* 395px - 445px */
-    height: clamp(24.6875rem, 30vw, 30.625rem);
-    left: auto;
-    right: 50%;
-  }
   #gallery-2281 .cs-content {
     text-align: left;
     align-items: flex-start;
@@ -896,7 +863,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   #reviews-1672 .cs-title {
     margin: 0rem;
@@ -962,15 +929,6 @@
     color: var(--headerColor);
     display: block;
   }
-  #reviews-1672 .cs-job {
-    /* 14px - 16px */
-    font-size: 1rem;
-    line-height: 1.5em;
-    font-weight: 400;
-    margin: 0;
-    color: var(--bodyTextColor);
-    display: block;
-  }
   #reviews-1672 .wrapper {
     display: flex;
     flex-direction: column;
@@ -1013,10 +971,6 @@
   body.dark-mode #reviews-1672 .cs-item {
     background-color: rgba(0, 0, 0, 0.2);
   }
-  body.dark-mode #reviews-1672 .cs-job {
-    color: var(--bodyTextColorWhite);
-    opacity: 0.7;
-  }
   body.dark-mode #reviews-1672 .cs-quote {
     opacity: 0.2;
   }
@@ -1027,7 +981,6 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #contact-587 {
-    background-color: #fafbfc;
     position: relative;
     z-index: 1;
   }
