@@ -81,6 +81,7 @@ module.exports = function (eleventyConfig) {
             "!**/*.js"
         ]
     });
+    eleventyConfig.addPassthroughCopy("./src/assets/js/dark.js");
     eleventyConfig.addPassthroughCopy("./src/admin");
     eleventyConfig.addPassthroughCopy("./src/_redirects");
     /**=====================================================================
