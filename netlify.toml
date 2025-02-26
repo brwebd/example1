@@ -1,7 +1,9 @@
 [build]
-  publish = "public/"
-  command = "npm run build"
+  command = "npm run build"  # Build command
+  publish = "public/"        # Folder where the build will be published
+
+[build.environment]
+  NODE_VERSION = "16"        # Set the Node.js version to match your local environment
 
 [[plugins]]
-  # Installs the Lighthouse Build Plugin for all deploy contexts
-  package = "@netlify/plugin-lighthouse"
+  package = "@netlify/plugin-lighthouse"  # Lighthouse plugin for build insights
