@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
+    --primary: #406039;
+    --primaryLight: #8DB483;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -62,7 +62,7 @@
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     transition: color 0.3s;
     transition-delay: 0.1s;
     text-align: center;
@@ -1043,6 +1043,9 @@
   #cta-51 {
     padding: var(--sectionPadding);
     position: relative;
+  }
+  #cta-51 .cs-topper {
+    color: white;
   }
   #cta-51 .cs-container {
     width: 100%;

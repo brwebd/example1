@@ -180,7 +180,7 @@
     background-color: var(--dark);
   }
   body.dark-mode #contact-587 .cs-topper {
-    color: var(--primaryLight);
+    color: #8DB483;
   }
   body.dark-mode #contact-587 .cs-title,
   body.dark-mode #contact-587 .cs-text,

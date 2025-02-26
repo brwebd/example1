@@ -141,7 +141,7 @@
     background-color: var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+    color: #8DB483;
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -156,6 +156,9 @@
   body.dark-mode #sbs .cs-quote-icon {
     opacity: 0.2;
   }
+  body.dark-mode #sbs .cs-job {
+    color: #fff;
+  }
 }
 /*-- -------------------------- -->
 <---          Services          -->
@@ -164,7 +167,7 @@
 @media only screen and (min-width: 0rem) {
   #services-1282 {
     position: relative;
-    padding: var(--sectionPadding);
+    padding: 0 1rem;
     z-index: 1;
   }
   #services-1282 .cs-container {
@@ -304,6 +307,9 @@
     /* turns it white */
     filter: grayscale(1) brightness(1000%);
   }
+  body.dark-mode #services-1282 .cs-topper {
+    color: #8DB483;
+  }
 }
 /*-- -------------------------- -->
 <---          Reviews           -->
@@ -442,5 +448,8 @@
   }
   body.dark-mode #reviews-1672 .cs-quote {
     opacity: 0.2;
+  }
+  body.dark-mode #reviews-1672 .cs-topper {
+    color: #8DB483;
   }
 }

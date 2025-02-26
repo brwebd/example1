@@ -245,6 +245,9 @@
   body.dark-mode #sbsr-2296 .cs-picture {
     border-color: var(--medium);
   }
+  body.dark-mode #sbsr-2296 .cs-topper {
+    color: #8DB483;
+  }
 }
 /*-- -------------------------- -->
 <---          Gallery           -->
@@ -252,7 +255,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #gallery-379 {
-    padding: var(--sectionPadding);
+    padding: 0 1rem clamp(3.75rem, 7.82vw, 6.25rem);
   }
   #gallery-379 .cs-container {
     width: 100%;
@@ -317,7 +320,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #gallery-379 .cs-topper {
-    color: var(--primaryLight);
+    color: #8DB483;
   }
   body.dark-mode #gallery-379 .cs-title,
   body.dark-mode #gallery-379 .cs-text {
